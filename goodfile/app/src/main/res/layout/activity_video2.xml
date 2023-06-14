@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".videoActivity2">
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="218dp"
+            android:layout_marginEnd="@dimen/dp_5"
+
+            android:src="@drawable/v" />
+
+        <Button
+            android:id="@+id/button20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_190"
+            android:background="@drawable/btn1"
+            android:text="局長帶你學健走"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_28"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_260"
+            android:background="@drawable/btn1"
+            android:text="教練帶你健走去"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_28"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_330"
+            android:background="@drawable/btn1"
+            android:text="GO！GO！GO！輕鬆學健走"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_24"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_400"
+            android:background="@drawable/btn1"
+            android:text="樂齡運動去"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_28"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_472"
+            android:background="@drawable/btn1"
+            android:text="高齡健身操"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_28"
+            android:textStyle="bold" />
+
+
+</RelativeLayout>

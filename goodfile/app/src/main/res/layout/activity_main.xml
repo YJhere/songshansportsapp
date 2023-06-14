@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/start3">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="@dimen/dp_190"
+                android:background="@drawable/btn1"
+                android:text="各里運動場所/運動課程"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_28"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_270"
+                android:background="@drawable/btn1"
+                android:text="             健走路線             "
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_28"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_340"
+                android:background="@drawable/btn1"
+                android:text="          健走相關影片        "
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_28"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_422"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/btn1"
+                android:text="             參加活動             "
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_28"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="@dimen/dp_500"
+                android:background="@drawable/btn1"
+                android:text="             網網相扣             "
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_28"
+                android:textStyle="bold" />
+        </RelativeLayout>
+</ScrollView>
+
+
